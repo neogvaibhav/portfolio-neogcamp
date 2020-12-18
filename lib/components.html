@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component library</title>
+    <link rel="stylesheet" href="/style.css">
+    
+
+</head>
+<body>
+    <h1>vaibhav component library</h1>
+    <p> I am attending neog.camp and is currently completing levelZero one weekend and assignment at a time.
+    </p>
+
+    
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>The biggest heading h1</h1>
+    <h2>the second biggest heading h2</h2>
+    <h3>this is normal text long running text will be like this on my website</h3>
+    <p>this contains a <strong>bold</strong> word</p>
+    <small>this is relatively smaller text </small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container fluid-container">
+       <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
+    </div>
+
+    <h3>@center container</h3>
+    <div class="container center-container"> 
+    <p>This is going to be a center container. It will go till a given width and center content</p>
+    </div>
+    
+    <hr>
+
+     <h2>@links</h2>
+
+     <a class="link link-primary" href="/">Primary Link</a>
+     <a class="link link-secondary" href="/">Secondary Link</a>
+
+     
+
+     <hr>
+
+     <h2>@lists</h2>
+     <h3>unordered lists</h3>
+     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
+     <ul class="list-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item-three</li>
+     </ul>
+     
+
+     <h3>inline lists</h3>
+     <p>Instead of going in a new row, we will create a list which will take columns.</p>
+     <ul class="list-non-bullet">
+         <li class="list-inline">item one</li>
+         <li  class="list-inline">item two</li>
+         <li  class="list-inline">item three</li>
+     </ul>
+
+     <h3>reversed order list</h3>
+     <p>counting will be reverse for this list</p>
+     <ol reversed>
+         <li>one</li>
+         <li>Two</li>
+         <li>Three</li>
+     </ol>
+     <hr>
+
+
+
+    <h2>@nav</h2>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
+    <nav class="navigation">
+        <div class="nav-brand">theBrandName</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">blogs</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-image" src="hero.svg" alt="">
+    <h1 class="hero-heading" >Hii, this is vaibhav the <span class="hero-heading-bold" >web developer</span> </h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+
+
+    <h3>@normal section</h3>
+    <section class="section">
+        <div class="container center-container">
+            <h1>heading inside section</h1>
+        <p>he section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading as a child of the section element.</p>
+        <a href="/">primary button</a>
+
+        </div>
+        
+    </section>
+
+    <h3>@an off white section</h3>
+
+    <section class="section section-grey" >
+        <div class="container center-container" >
+            <h1>inside off white section</h1>
+            <p>he section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading as a child of the section element.</p>
+             <a href="/">primary button</a>
+        </div>
+    </section >
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header" >header inside footer</div>
+    <ul class="social-link list-non-bullet">
+       
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+
+    </ul>
+    </footer>
+    
+</body>
+</html>

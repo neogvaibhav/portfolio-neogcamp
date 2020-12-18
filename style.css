@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
     --primary-color : #2C466F;
@@ -8,6 +8,7 @@
 
 body{
     font-family: 'montserrat' ,sans-serif;
+    margin: 0px
 }
 
 hr{
@@ -30,6 +31,9 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
 }
 
 .link-primary{
@@ -118,6 +122,12 @@ hr{
     color: white;
     border-top-right-radius: 1rem;
     
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+
 }
 
 .footer .link{
